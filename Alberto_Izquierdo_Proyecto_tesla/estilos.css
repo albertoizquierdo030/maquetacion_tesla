@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+body{
+
+    margin: 0;
+    background-color: floralwhite;
+}
+ a{
+    text-decoration: none;
+    color: #94CDD6;
+}
+footer{
+    background-color: #1A5B6D;
+}
+h2, h3{
+    color: #94CDD6;
+    text-align: center;
+}
+svg{
+    width: 18px;
+}
+
+
+
+
+/* .  TAMAÑOS PEQUEÑOS . */
+@media screen and (max-width: 600px){
+    
+body{
+    text-align: left;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+footer{
+    display: none;
+}
+#foto-logo{
+    width: 30%;
+     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.tercero{
+    padding: 9%;
+}
+.anchototal{
+    width: 98%;
+}
+input[type = submit]{
+    background-color: #1A5B6D;
+    color: white;
+    border-radius: 4px;
+}
+input[type = submit]:hover{
+    background-color: #94CDD6;
+    
+}
+h1{
+    text-align: center;
+    color: #94CDD6;
+    padding-bottom: 50px;
+}
+#logo-youtube{
+    width: 20px;
+    margin-bottom: -5px;
+}
+.play:hover{
+    color: #1A5B6D;
+}
+.video-uno{
+    display: none;
+}
+#video-header{
+    display: none;
+}
+.cabecera-uno{
+   position: absolute;
+    width: 100%;
+    text-align: center;
+    
+    padding-bottom: 2%;
+    
+}
+.cabecera-dos{
+    height: 90%;
+}
+#logo{
+    width: 7%;
+    position: absolute;
+    top: 4%;
+    left: 6%;
+}
+.derecha-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+.izquierda-header{
+    padding-top: 0.7%;
+}
+p.contenedor-uno{
+    padding-left: 4%;
+    margin-top: 0%
+ }
+ nav a:hover{
+     color: white;
+ }
+ a:hover{
+     color:#1A5B6D;
+ }
+ p.contenedor-dos{
+    margin-top: 0%;
+}
+ 
+}
+/* .  TAMAÑOS MEDIANOS . */
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+
+body{
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 13px;
+}
+#foto-uno, #foto-dos, #foto-tres, #foto-cuatro, #foto-cinco, #foto-seis{
+    display: flex;
+    justify-content: center;
+}
+#foto-dos img, #foto-tres img, #foto-cuatro img, #foto-cinco img, #foto-seis img{
+    width: 50%;
+    height: 100%;
+}
+footer a:hover{
+    color: white;
+}
+
+#logo-youtube{
+    width: 20px;
+    margin-bottom: -5px;
+}
+h1{
+    text-align: center;
+    color: #94CDD6;
+    padding-bottom: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 21px;
+}
+.anchototal{
+    width: 98.5%;
+}
+input[type = submit]{
+    background-color: #1A5B6D;
+    color: white;
+    border-radius: 4px;
+}
+input[type = submit]:hover{
+    background-color: #94CDD6;
+    
+}
+.play:hover{
+    color: #1A5B6D;
+}
+.tercero{
+    padding: 9%;
+}
+figcaption{
+    padding-left: 5%;
+}
+.todo{
+    text-align: center;
+}
+#derecha img:hover{
+    background-color: #94CDD6;
+}
+figure img{
+    padding-top: 20px;
+}
+.video-uno{
+    display: none;
+}
+#foto-logo{
+    width: 30%;
+     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+svg{
+    width: 21px;
+}
+#video-header{
+    display: none;
+}
+#foto-header{
+    width: 100%;
+    
+}
+#foto-logo{
+    width: 15%;
+}
+.cabecera-uno{
+    position: absolute;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 2%; 
+ }
+ .cabecera-dos{
+     height: 90%;
+ }
+ #logo{
+     width: 7%;
+     position: absolute;
+     top: 4%;
+     left: 6%;
+ }
+ .derecha-header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 50%;
+     margin: auto;
+     padding-top: 1.5%;
+ }
+ .izquierda-header{
+     padding-top: 0.7%;
+ }
+ header{ 
+     position: absolute;
+     top: 30%;
+     left: 0%;
+     right: 0%;
+     margin: auto;
+ }
+ header h1 p{
+     font-size: 40px;
+     margin: auto;
+ }
+ .ver-video{
+     width: 50%;
+ }
+ .ver-video img{
+     width: 100%;
+ }
+ #nikola-tesla{
+     width: 100%;
+ }
+ nav a {
+     font-size: 17px;
+ }
+ p.contenedor-uno{
+    padding-left: 4%;
+    margin-top: 0%
+ }
+ nav a:hover{
+     color: white;
+ }
+ a:hover{
+     color:#1A5B6D;
+ }
+ p.contenedor-dos{
+    margin-top: 0%;
+}
+#uno{
+    width: 12px;
+}
+#dos{
+    width: 20px;
+}
+#tres{
+    width: 25px;
+}
+footer a {
+    color:#94CDD6;
+}
+
+ 
+}
+/* .  TAMAÑOS GRANDES . */
+@media screen and (min-width: 1000px){
+    body{
+        font-family: 'Miriam Libre', sans-serif;
+    }
+    .todo{
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+        
+    }
+    .tercero{
+        display: flex;
+        justify-content: center;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .info{
+        width: 50%;
+    }
+    .formu{
+        width: 50%;
+    }
+    .anchototal{
+        width: 96%;
+    }
+    input[type = submit]{
+        background-color: #1A5B6D;
+        color: white;
+        border-radius: 4px;
+    }
+    input[type = submit]:hover{
+        background-color: #94CDD6;
+    }
+    .tres-segundas{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    #foto-cuatro, #foto-cinco, #foto-seis{
+        width: 33%;
+    }
+    #foto-cuatro img, #foto-cinco img, #foto-seis img{
+        width: 100%;
+     
+    }
+    .tres-primeras{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    #foto-uno, #foto-dos, #foto-tres{
+        width: 33%;
+    }
+    #foto-dos img, #foto-tres img{
+        width: 100%; 
+    }
+    .mapa{
+        width: 100%;
+    }
+    .video-uno{
+        width: 100%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    #logo-youtube{
+        display: none;
+    }
+    #nikola-tesla{
+        display: none;
+    }
+    .play{
+        display: none;
+    }
+    #foto-logo{
+        width: 30%;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+        width: 8%;
+    }
+    #foto-header{
+        display: none;
+    }
+    #video-header{
+        width: 100%;
+        height: 762px;
+    }
+
+    #derecha{
+        display: flex;
+        align-items: center;
+    }
+    #derecha a{
+        margin-left: 15%;
+    }
+    
+    .izquierda{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+    }
+    h1{
+        color: #94CDD6;
+    }
+    .cabecera-dos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #1A5B6D;
+    }
+    #logo{
+        width: 5%;
+    }
+    .derecha-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 27%;
+        padding-top: 1%;
+    }
+    .izquierda-header{
+        padding-top: 0.5%;
+    }
+    header{ 
+        position: absolute;
+        top: 65%;
+        left: 0%;
+        right: 0%;
+        margin: auto;
+        text-align: center;
+    }
+    nav a:hover{
+        color: white;
+    }
+    a:hover{
+        color:#1A5B6D;
+    }
+    footer a:hover{
+        color: white
+    }
+    #uno{
+        width: 12px;
+    }
+    #dos{
+        width: 20px;
+    }
+    #tres{
+        width: 25px;
+    }
+    }
